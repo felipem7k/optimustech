@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("styles/header.css");
+
+:root {
+    --bg-color: #FFFFFF;
+
+    --prim-color: #8E2424;
+
+    --prim-fonts-color: #667085;
+    --sec-fonts-color: #3A404E;
+    --ter-fonts-color: #101828;
+
+    --prim-font: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--prim-font);
+}
