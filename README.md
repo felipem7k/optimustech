@@ -1,4 +1,4 @@
-# 7 Days of Code - Company Website
+# 7 Days of Code - OptimusTech
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/felipem7k/optimustech)
 ![GitHub stars](https://img.shields.io/github/stars/felipem7k/optimustech?style=social)
@@ -26,7 +26,7 @@ Este repositório contém o projeto desenvolvido durante o desafio **7 Days of C
 
 ## Instalação
 
-Para clonar e executar este projeto, você precisará do [Git](https://git-scm.com) e do [Node.js](https://nodejs.org/en/) instalados em seu computador.
+Para clonar e executar este projeto, você precisará do [Git](https://git-scm.com) instalado em seu computador.
 
 ```bash
 # Clone este repositório
