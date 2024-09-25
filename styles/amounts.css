@@ -1,0 +1,27 @@
+.amounts {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 288px;
+    gap: 32px;
+}
+
+.amounts__item {
+    width: 20vw;
+
+    h2 {
+        color: var(--prim-color);
+        font-size: 60px;
+        font-weight: 600;
+    }
+
+    h3 {
+        color: var(--ter-fonts-color);
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    p {
+        color: var(--prim-fonts-color);
+    }
+}
