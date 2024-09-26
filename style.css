@@ -2,11 +2,13 @@
 @import url("styles/header.css");
 @import url("styles/about-us.css");
 @import url("styles/amounts.css");
+@import url("styles/hiring.css");
 
 :root {
     --bg-color: #FFFFFF;
 
     --prim-color: #8E2424;
+    --sec-color: rgba(143, 36, 36, 0.050);
 
     --prim-fonts-color: #667085;
     --sec-fonts-color: #3A404E;
