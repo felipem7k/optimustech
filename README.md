@@ -24,6 +24,10 @@ Este repositório contém o projeto desenvolvido durante o desafio **7 Days of C
 - CSS3
 - JavaScript
 
+## Visualização
+
+Visualize o projeto acessando este [site](https://felipem7k.github.io/optimustech/)
+
 ## Instalação
 
 Para clonar e executar este projeto, você precisará do [Git](https://git-scm.com) instalado em seu computador.
