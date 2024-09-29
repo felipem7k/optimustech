@@ -9,6 +9,10 @@ header {
     gap: 6vw;
 }
 
+.header__menu {
+    display: none;       
+}
+
 .header__logo {
     display: flex;
     align-items: center;
@@ -50,5 +54,62 @@ header {
         color: var(--bg-color);
         background-color: var(--prim-color);
         border-radius: 8px;
+    }
+}
+@media screen and (width < 1020px) {
+    .header__logo h1 {
+        display: none;
+    }
+    
+    .header__buttons {
+        display: none;
+    }
+    
+    .header__nav {
+        display: none;
+    }
+    
+    .header__menu {
+        width: 24px;
+        height: 24px;
+        background-image: url("../img/Menu.svg");
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer; /* Adiciona cursor de pointer para indicar que é clicável */
+    }
+    
+    .header__menu-list {
+        position: absolute;
+        top: 100%;
+        width: 60vw;
+        display: none;
+    }
+    
+    .header__menu-list li {
+        padding: 20px 20px;
+        background-color: var(--bg-color);
+    }
+    
+    .header__menu-list a {
+        color: var(--sec-fonts-color);
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .header__menu-button {
+        display: none; /* Oculta o checkbox */
+    }
+    
+    .header__menu-button:checked ~ .header__menu-list {
+        display: block; /* Mostra o menu quando o checkbox está marcado */
+    }
+    
+    .header__menu label {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        position: relative;
     }
 }

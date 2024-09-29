@@ -33,3 +33,13 @@
         }
     }
 }
+
+@media screen and (width < 1020px) {
+    .feedbacks {
+        width: 60vw;
+    
+        h1 {
+            font-size: 28px;
+        }
+    }
+}

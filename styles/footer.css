@@ -51,3 +51,27 @@ footer {
         font-size: 16px;
     }
 }
+
+@media screen and (width < 1020px) {
+    footer {
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            color: var(--ter-fonts-color);
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        .send-mail {
+            input {
+                width: 40%;
+            }
+        }
+
+        p {
+            font-size: 13px;
+        }
+    }
+}

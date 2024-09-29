@@ -25,3 +25,18 @@
         color: var(--prim-fonts-color);
     }
 }
+
+@media screen and (width < 1020px) {
+    .amounts {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .amounts__item {
+        width: 70vw;
+    }
+}
