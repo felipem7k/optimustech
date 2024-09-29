@@ -1,4 +1,5 @@
 .hiring {
+    position: relative;
     margin: 96px 0;
 }
 
@@ -35,5 +36,49 @@
     img {
         width: 80%;
         margin: 64px 0;
+    }
+}
+
+.hiring__list {
+    position: relative;
+    width: 50%;
+    margin: auto;
+
+    h2 {
+        line-height: 30px;
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--ter-fonts-color);
+    }
+
+    ul {
+        margin-top: 32px;
+        margin-bottom: 64px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        li {
+            width: 100%;
+            height: 84px;
+            border-radius: 16px;
+            border: 1px solid #EAECF0;
+            padding: 28px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            h3 {
+                font-weight: 500;
+                color: var(--ter-fonts-color);
+                font-size: 18px;
+            }
+
+            .hiring__list-time {
+                display: flex;
+                gap: 24px;
+                color: var(--prim-fonts-color);
+            }
+        }
     }
 }

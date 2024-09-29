@@ -1,0 +1,35 @@
+.feedbacks {
+    width: 80%;
+    background-color: var(--sec-color);
+    margin: auto;
+    text-align: center;
+    padding: 64px;
+    margin-bottom: 96px;
+
+    h2 {
+        color: var(--prim-color);
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    h1 {
+        margin: 16px 0 32px 0;
+        font-size: 36px;
+        color: var(--ter-fonts-color);
+        font-weight: 500;
+    }
+
+    .feedbacks__image__details {
+        h3 {
+            line-height: 24px;
+            font-weight: 500;
+            color: var(--ter-fonts-color);
+        }
+
+        p {
+            line-height: 20px;
+            font-size: 14px;
+            color: var(--prim-fonts-color);
+        }
+    }
+}

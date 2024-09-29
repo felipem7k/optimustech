@@ -3,6 +3,7 @@
 @import url("styles/about-us.css");
 @import url("styles/amounts.css");
 @import url("styles/hiring.css");
+@import url("styles/feedbacks.css");
 
 :root {
     --bg-color: #FFFFFF;
