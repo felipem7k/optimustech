@@ -4,6 +4,7 @@
 @import url("styles/amounts.css");
 @import url("styles/hiring.css");
 @import url("styles/feedbacks.css");
+@import url("styles/footer.css");
 
 :root {
     --bg-color: #FFFFFF;
